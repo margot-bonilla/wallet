@@ -6,6 +6,11 @@ import java.util.Set;
 @Entity
 @Table(name = "role")
 public class Role {
+
+    public static final long ROLE_ADMIN_ID = 1L;
+
+    public static final long ROLE_USER_ID = 2L;
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;

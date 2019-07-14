@@ -12,5 +12,4 @@ public class WalletApplicationTests {
     @Test
     public void contextLoads() {
     }
-
 }

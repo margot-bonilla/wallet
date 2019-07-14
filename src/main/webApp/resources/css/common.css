@@ -7,7 +7,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 
 html, body, form, fieldset, p, div, h1, h2, h3, h4, h5, h6 {
-    -webkit-text-size-adjust: none
+    -webkit-text-size-adjust: none;
 }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
@@ -100,7 +100,9 @@ ul, ol {
 }
 
 h1, h2, h3, strong {
-    font-weight: 600;
+    font-weight: 800;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 img {
@@ -237,4 +239,8 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
     display: block;
     height: 40px;
     line-height: 40px
+}
+
+.error {
+    color: red;
 }
