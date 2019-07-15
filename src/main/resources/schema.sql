@@ -1,7 +1,6 @@
-DROP TABLE IF EXISTS `user_role`;
-DROP TABLE IF EXISTS `card`;
-DROP TABLE IF EXISTS `user`;
-DROP TABLE IF EXISTS `role`;
+DROP DATABASE wallet;
+CREATE DATABASE wallet;
+USE wallet;
 
 
 CREATE TABLE `role`

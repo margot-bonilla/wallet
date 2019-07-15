@@ -15,12 +15,7 @@
 ```bash
 git clone git@github.com:margot-bonilla/wallet.git
 cd wallet
-mvn spring-boot:run
-```
-## Set up from .zip
-```bash
-unzip file.zip
-cd wallet
+mysql -uroot -p  < src/main/resources/schema.sql  -vvv
 mvn spring-boot:run
 ```
 
